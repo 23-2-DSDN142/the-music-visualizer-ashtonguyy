@@ -12,12 +12,9 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
   //DRUM variable for oscilloscope LEFT
   fill(127, 255, 212); //hospital green
-  ellipse(height / 2, drumwidthL, pointsize);
+  ellipse(drumwidthL, width / 2, pointsize);
 
-  //DRUM variable for oscilloscope RIGHT
-  fill(127, 255, 212); //hospital green
-  ellipse(width / 2 + drum, height / 2 - drum, pointsize);
-
+  
   //VOCAL variable for oscilloscope
   fill(127, 255, 212); //hospital green
   ellipse(width/2, vocalheight, pointsize);
